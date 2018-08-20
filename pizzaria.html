@@ -1,0 +1,350 @@
+﻿ <!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pizzaria Odirlei</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .topo {
+            width: 900px;
+            height: 50px;
+            background-color: #560718;
+            margin: auto;
+            transform: translateY(5px);
+        }
+
+        .menu {
+            text-align: center;
+        }
+
+        .menu ul {
+            list-style-type: none;
+            padding-top: 10px;
+            color: #C59F67;
+            font-family: 'Brush Script MT Italic';
+        }
+
+        .menu li {
+            display: inline;
+            margin: auto;
+            font-family: "Brush Script MT Italic";
+            padding: 60px;
+        }
+
+        #cabecalhoback {
+            width: 1366px;
+            height: 530px;
+            background-color: white;
+        }
+
+        #conteudo {
+            margin: 90px auto;
+            background-repeat: no-repeat;
+            width: 1366px;
+            background-position: center;
+
+        }
+
+        #back {
+            background: url('Ativo7.png');
+            margin: 0 auto;
+            background-repeat: no-repeat;
+            width: 1366px;
+            height: 1478px;
+            background-position: center;
+        }
+
+        .contato {
+            background-color: rgba(200, 162, 103, 60%);
+            height: 604px;
+            width: 382px;
+            transform: translateY(50px);
+            margin-left: 110px;
+
+        }
+
+        .social h2 {
+            text-align: center;
+
+        }
+
+        .redeslogo {
+            list-style: none;
+            margin-left: 50px;
+        }
+
+        .redeslogo li {
+            height: 60px;
+            transform: translateY(60px);
+        }
+
+        .redeslogo h3 {
+            font-size: 25px;
+            font-family: 'consolas';
+        }
+
+        .social {
+            text-align: left;
+        }
+
+        .contato h2 {
+
+            height: 10px;
+            font-family: "segoe print";
+            font-size: 40px;
+            color: #830D23;
+        }
+
+        .redeslogo {
+            transform: translateX(-25px);
+
+
+        }
+
+        .logotxt {
+            display: inline-block;
+        }
+
+        .redeslogo h3 {
+            transform: translateY(-21px);
+        }
+
+        .endereco {
+            text-align: center;
+            transform: translateY(90px);
+
+        }
+
+        .pedido {
+            background-color: rgba(200, 162, 103, 60%);
+            width: 632px;
+            height: 327px;
+        }
+
+        .pedido h2 {
+            font-family: "segoe print";
+            font-size: 90px;
+            color: #830D23;
+            text-align: center;
+            height: 10px;
+
+        }
+
+        .pizzas {
+            margin-left: 630px;
+            transform: translateY(-554px);
+        }
+
+        .promocoes {
+            background-color: rgba(200, 162, 103, 60%);
+            width: 632px;
+            height: 182px;
+            transform: translateY(95px);
+
+
+        }
+
+        .promocoes h2 {
+            font-family: "segoe print";
+            font-size: 90px;
+            color: #830D23;
+            text-align: center;
+
+        }
+
+        .cardapio {
+            background-color: rgba(200, 162, 103, 60%);
+            width: 728px;
+            height: 617px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            padding: 25px;
+            float: left;
+        }
+
+        .cardapio h2 {
+            font-family: "segoe print";
+            font-size: 50px;
+            color: #830D23;
+            text-align: center;
+        }
+        .pizza1, .pizza2, .pizza3 {
+            font-family: "segoe print";
+        }
+        .pizza1,
+        .pizza2,
+        .pizza3 {
+            display: flex;
+
+        }
+
+        .pizza1 {
+            width: 728px;
+        }
+
+        .pizza2 {
+            width: 728px;
+        }
+
+        .pizza3 {
+            width: 728px;
+        }
+
+        .historia {
+            background-color: rgba(200, 162, 103, 60%);
+            width: 347px;
+            height: 670px;
+            float: left;
+            margin-left: 60px;
+            transform: translateX(-85px);
+        }
+
+        .caixa1 {
+            width: 1366px;
+            height: 660px;
+        }
+
+        .caixa2 {
+            width: 1366px;
+            height: 730px;
+
+        }
+        .aaa {
+            display: inline-block;
+            margin-left: 110px;
+        }
+        .historia h2 {
+            font-size: 80px;
+            color: #830D23;
+            font-family: "segoe print";
+            text-align: center;
+        }
+        .historia p {
+            font-family: "segoe print";
+        }
+        .menu a {
+            font-family: "segoe print";
+        }
+        .banner {
+            background: url("Sprint2/Aula5/fg1.png");
+        }
+    </style>
+</head>
+
+<body id="conteudo">
+    <header>
+        <div id="cabecalhoback">
+            <div class="topo">
+                <div class="banner">
+                    
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a>Cardápio</a>
+                        </li>
+                        <li>
+                            <a>Pedidos</a>
+                        </li>
+                        <li>
+                            <a>Menu</a>
+                        </li>
+                        <li>
+                            <a>História</a>
+                        </li>
+                        <li>
+                            <a>Promoções</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main id="back">
+        <div class="caixa1">
+            <div id="cabecalho">
+                <div class="contato">
+                    <div class="social">
+                        <h2>Contatos</h2>
+                        <ul class="redeslogo">
+                            <li>
+                                <img src="Ativo 12.png" alt="icone facebook">
+                                <h3 class="logotxt">Lorem ipsum dolor</h3>
+                            </li>
+                            <li>
+                                <img src="Ativo 11.png" alt="icone instagram">
+                                <h3 class="logotxt">Lorem ipsum dolor</h3>
+                            </li>
+                            <li>
+                                <img src="Ativo 10.png" alt="icone whatsapp">
+                                <h3 class="logotxt">Lorem ipsum dolor</h3>
+                            </li>
+                            <li>
+                                <img src="Ativo 9.png" alt="icone telefone">
+                                <h3 class="logotxt">Lorem ipsum dolor</h3>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="endereco">
+                        <img src="Ativo 13.png" alt="localização">
+                    </div>
+                </div>
+                <div class="pizzas">
+                    <div class="pedido">
+                        <h2>Faça seu pedido</h2>
+                    </div>
+                    <div class="promocoes">
+                        <h2>Promoções.....</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="caixa2">
+            <div id="conteudo">
+                <div class="cardapio aaa">
+                    <h2>Cardápio</h2>
+                    <div class="pizza1">
+                        <img src="Ativo 2.png" alt="pizza1">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor
+                            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                    </div>
+                    <div class="pizza2">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor
+                            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                        <img src="Ativo 6.png" alt="pizza2">
+                    </div>
+                    <div class="pizza3">
+                        <img src="Ativo 3.png" alt="pizza3">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor
+                            sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                    </div>
+                </div>
+                <div class="historia aaa">
+                    <h2>história</h2>
+                    <section class="historiatxt">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor
+                            sit amet, consectetuer adipiscing elit, sed diam nonummy nibhLorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibhLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                            nibh,Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibhLorem ipsum
+                            dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh,Lorem ipsum dolor sit amet,
+                            consectetuer adipiscing elit, sed diam nonummy nibh</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
